@@ -1,83 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jack's Blog</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f4;
-            color: #333;
-        }
-
-        header {
-            background: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            padding: 1rem 0;
-            background: #444;
-        }
-
-        nav a {
-            margin: 0 15px;
-            color: #fff;
-            text-decoration: none;
-        }
-
-        .container {
-            width: 80%;
-            margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        section {
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            border-bottom: 2px solid #333;
-            padding-bottom: 5px;
-        }
-
-        .post {
-            margin-bottom: 15px;
-        }
-
-        .post-title {
-            font-size: 1.2rem;
-            color: #444;
-        }
-
-        .post-date {
-            font-size: 0.9rem;
-            color: #888;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <header>
         <h1>Jack's Blog</h1>
+        <nav>
+            <a href="index.html" class="normal">Home</a>
+            <a href="about.html" class="normal">About</a>
+            <a href="blog.html" class="selected">Blog</a>
+        </nav>
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="notes.html">Notes</a>
-    </nav>
-    <div class="container">
+    <main class="container">
         <section id="blog">
             <h2>Blog</h2>
             <div class="post">
@@ -92,7 +30,9 @@
             </div>
             <!-- Add more blog posts as needed -->
         </section>
-    </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Jack. All rights reserved.</p>
+    </footer>
 </body>
-
 </html>

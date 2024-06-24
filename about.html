@@ -4,62 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Jack</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            padding: 1rem 0;
-            background: #444;
-        }
-        nav a {
-            margin: 0 15px;
-            color: #fff;
-            text-decoration: none;
-        }
-        .container {
-            width: 80%;
-            margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        section {
-            margin-bottom: 20px;
-        }
-        h2 {
-            border-bottom: 2px solid #333;
-            padding-bottom: 5px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>About Jack</h1>
+        <nav>
+            <a href="index.html" class="normal">Home</a>
+            <a href="about.html" class="selected">About</a>
+            <a href="blog.html" class="normal">Blog</a>
+        </nav>
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="blog.html">Blog</a>
-        <a href="notes.html">Notes</a>
-    </nav>
-    <div class="container">
-        <section id="about">
+    <main class="container">
+        <section>
             <h2>About</h2>
             <p>Hello! I'm Jack, a senior developer specializing in smart wearable apps and multilingual translation. With a passion for creating user-friendly applications and optimizing user experiences, I have a diverse skill set that includes front-end development, user research, and software engineering.</p>
         </section>
-    </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Jack. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+
